@@ -1,0 +1,46 @@
+{
+  "configurations" : [
+    {
+      "id" : "8907459E-1782-4204-8854-24CF07921E7F",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:QuickNimbleTest.xcodeproj",
+          "identifier" : "89213FF22A9C22430018E236",
+          "name" : "QuickNimbleTest"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:QuickNimbleTest.xcodeproj",
+      "identifier" : "89213FF22A9C22430018E236",
+      "name" : "QuickNimbleTest"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:QuickNimbleTest.xcodeproj",
+        "identifier" : "892140022A9C22460018E236",
+        "name" : "QuickNimbleTestTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:QuickNimbleTest.xcodeproj",
+        "identifier" : "8921400C2A9C22460018E236",
+        "name" : "QuickNimbleTestUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
